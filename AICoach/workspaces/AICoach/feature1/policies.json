@@ -1,0 +1,52 @@
+{
+    "policies": [
+        {
+            "name": "HelloWorldView",
+            "description": "Hello World View",
+            "statement": {
+                "permissions": [
+                    {
+                        "name" : "feature1.views.HelloWorldView",
+                        "type" : "view"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "CrudTestView",
+            "description": "Hello World View",
+            "statement": {
+                "permissions": [
+                    {
+                        "name" : "feature1.views.CrudTestView",
+                        "type" : "view"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "RecipeView",
+            "description": "RecipeView",
+            "statement": {
+                "permissions": [
+                    {
+                        "name" : "feature1.views.RecipeView",
+                        "type" : "view"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "EmployeeCrudView",
+            "description": "EmployeeCrudView",
+            "statement": {
+                "permissions": [
+                    {
+                        "name" : "feature1.views.EmployeeCrudView",
+                        "type" : "view"
+                    }
+                ]
+            }
+        }
+    ]
+}
